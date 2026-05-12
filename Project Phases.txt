@@ -1,0 +1,58 @@
+Phase 1 — AI Retrieval Voice Assistant
+Phase 2 — Intelligent Assistant Layer
+Phase 3 — Knowledge Base System
+Phase 4 — Vector Database System
+Phase 5 — Ollama Intelligence Layer
+Phase 6 — Automation Engine
+Phase 7 — Verification System
+Phase 8 — Screen Monitoring System
+Phase 9 — OCR Engine
+Phase 10 — Vision-Based Automation
+Phase 11 — Self-Learning System
+Phase 12 — Multi-Agent AI System
+Phase 13 — Dashboard / UI System
+Phase 14 — Enterprise Features
+
+
+
+
+Phase -1 (Voice Assistant)
+->Firstly we need to create a voice assistant
+->firstly it will search for the solution in the vector database and then it will be going into ollama model  
+->and then it needs to provide the output in the voice 
+->model is taking input within 3sec so it will effect the input phase so we need to change the time here 
+
+Phase-2 Intelligent Assistant 
+->Secondly here we need to create flow
+	->Now we need to create a flow for suppose if model listen to the chrome issue 
+	-> now it needs to automatically needs to choose the prompt
+	->Basically problem detection we will takes place here 
+	->Workflow selection 
+	->automatically selecting the prompt 
+
+Phase -3 Knowledge Base 
+->The response got from the database or ollama will be stored here
+->basically it will store the trouble shooting steps 
+->for suppose if the user ask it for once again it will not go to the database it will automatically uses the steps stored here
+Store troubleshooting workflows
+AI workflow: 
+	->Retrieve workflows
+ 	->Reuse old solutions
+ 	->Update KB with successful fixes
+ 	->Act as AI memory system
+
+Phase -4 Vector database 
+	->In this phase we will automatically consider or detect the problem 
+	->using semantic search we will be retrives the data 
+	->here we will be creating the keywords again 
+	->based on the keyword the extraction will be done here 
+	->the data retrial will be done here 
+
+Phase-5 Ollama Intelligence Layer
+	->Basically in phase 5 we will be using ollama
+	->calling ollama will be done here 
+	->It is an optional layer 
+	->if the issue doesnot found in phase 4 or unable to detect in phase 4 it will be consider phase 5 and retrive the data 
+
+
+
