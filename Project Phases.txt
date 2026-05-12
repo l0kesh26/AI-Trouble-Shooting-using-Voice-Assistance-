@@ -8,7 +8,7 @@ Phase-3 --> Knowledge Base System
 
 Phase-4 --> Vector Database System
 
-Phase-5 --> Ollama Intelligence Layer
+Phase-5 --> Llama Intelligence Layer
 
 Phase-6 --> Automation Engine
 
@@ -51,8 +51,103 @@ Phase-2 (Intelligent Assistant Layer)
 
 Phase-3(Knowledge System)
 
-->This is dynamic memory where the issue resolved or step used for the solution will be done here 
-->For suppose user will be mentioning that 
+->In this phase we will creating a dynamic memory and issues which are resolved will be stored here and can be reused to resolve the issue 
+->The knowledge system can be used again and again 
+->For suppose if the user ask about the chrome issue now model wont be going near vector database or ollama 
+->It will be using knowledge system and it retrieve the data from the knowledge system and follows the steps 
+->This save time and effort of the ai agent 
+
+Phase-4(Vector Database)
+
+->In this phase we will creating a agent which will take the list from the phase-2 and sending here.
+->In vector database the bot will be performing the semantic search
+->Based on the search results it will be providing the trouble shooting steps 
+->The query result will be stored in the list and will be moving to the automation phase i.e phase-6
+
+Phase -5 (Ollama Intelligence Layer)
+
+->In this phase we will creating an optional layer 
+->In Phase-6 after automation layer is done then it will ask the user whether the issue is resolved or not 
+->In case if the user say the issue is not resolve it will take as work not done and it will send the phase-2 query to the ollama model 
+->Then it will fetch the details from ollama 
+->And then again automation layer will running again.
+
+
+Phase - 6 (Automation Engine)
+
+->In phase - 6 we will be creating the automation layer 
+->In automation we will creating an automation in this it will verify all the steps 
+	->For example if the chrome is not working 
+		->It will be checking the whether the wifi is connected or not 
+		->Later it will be checking cache and it will be clearing the chrome history and cache 
+		->Then it will be restarting the chrome 
+->These thinks will done in phase-6
+
+Phase-7 (Verification System)
+
+->In phase-7 after performing the phase-6 automation engine it will ask the user whether the issue is resolved or not 
+->If the user say yes it the bot will be stopped here 
+->If the user say no the bot will be sending the query to the phase-5 and it will be retrieving the data or steps from there and again the automation layer will be called and re-used here 
+->This verification system helps to consider the feedback from the user 
+
+
+Phase-8 (Screen-Monitoring System)
+
+->In phase-8 we will be creating a system called screen monitoring system it will continuously monitoring the screen 
+->For suppose if the monitor pop-up any other pop 
+->Captures screenshots during execution
+->It Detects UI changes, popups, errors
+->Feeds visual data to OCR & Vision system
+->This will be screen-shot will be sent to the next-phase
+
+
+
+
+Phase-9 (OCR Engine)
+
+->In phase-9 we will creating and using the ocr(optical character recognition)
+-> The screen-shot which is provided by the phase-8 will be analysis the ocr 
+->After analysing the ocr it will be sending the information to the next phase
+
+Phase-10( Vision-Based Automation)
+
+->In phase-10 we will be creating the vision-based automation function 
+->Performs intelligent clicking and clearing the pop and handles the error
+->Handles dynamic UI changes
+->Replaces coordinate-based automation
+	->Coordinate-based automation 
+		->automation based on the co-ordinates
+			->for suppose if the co-ordinates are not correct it will be not direct to the app
+	
+	->Visual-Based Automation 
+		->automation based on the UI elements
+			->same example from the above and it will open based on the image 
+
+Phase-11(Self-Learning System)
+
+->Stores successful workflows
+->Updates knowledge/vector database
+->Learns from past fixes
+->Reduces future AI/LLM calls
+
+
+Phase-12(Multi-Agent AI System)
+
+->In final phase we will verifying these agent are working are not 
+
+Splits system into multiple AI agents
+Voice Agent → input/output handling
+Intent Agent → problem understanding
+Retrieval Agent → vector search
+Automation Agent → execution
+Vision Agent → UI detection
+Verification Agent → result checking
+Agents work together as a system
+
+ 
+
+
+
 
 
  
