@@ -1,0 +1,54 @@
+Browser Not Opening
+“Chrome is not opening”
+“My browser won’t start”
+“Google Chrome crashed”
+“Chrome closes immediately”
+“I can’t launch Chrome”
+Slow Chrome
+“Chrome is very slow”
+“Why is my browser lagging?”
+“Web pages take forever to load”
+“Chrome is hanging”
+“My browser freezes sometimes”
+Internet / Website Issues
+“Chrome says no internet”
+“Websites are not loading”
+“I can’t open any site”
+“Chrome shows connection error”
+“This page isn’t reachable”
+“Chrome tabs keep crashing”
+“Aw snap error is coming”
+“Browser crashes when I open YouTube”
+“Chrome stops responding”
+Login / Sync Problems
+“Chrome is not syncing”
+“I got signed out from Chrome”
+“Bookmarks disappeared”
+“My Chrome account is not working”
+Download Problems
+“Downloads are failing”
+“Chrome blocked my download”
+“File is not downloading”
+Audio / Video Issues
+“No sound in Chrome”
+“Videos are buffering”
+“YouTube audio is not working”
+“Mic is not working in browser”
+Extension Problems
+“Ad blocker stopped working”
+“An extension is causing issues”
+“Chrome extensions disappeared”
+Update Problems
+“Chrome update failed”
+“My browser is outdated”
+“Chrome cannot update”
+Security / Popups
+“Chrome says website is unsafe”
+“I am getting too many popups”
+“Browser redirected me to another site”
+“My Chrome is acting weird”
+“Something is wrong with my browser”
+“Chrome is broken”
+“I messed up my browser settings”
+“Can you fix my Chrome?”
+
