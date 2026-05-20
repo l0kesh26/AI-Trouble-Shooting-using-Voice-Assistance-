@@ -1,0 +1,13 @@
+PYAUTOGUI -Python Auto Graphical User Interface
+
+->Python-based automation library that allows a program to control the graphical user interface (GUI) of a computer.
+->In simple terms, it enables Python code to simulate human actions such as moving the mouse, clicking buttons, typing on the keyboard, and interacting with applications.
+->It is widely used in automation, testing, and AI-based desktop assistants.
+
+PyAutoGUI works by controlling the screen at the pixel level.
+
+->This means it does not directly communicate with applications internally; instead, it interacts with what is visually displayed on the screen.
+->For example, when you instruct it to click a button, it moves the mouse pointer to a specific coordinate (x, y) and performs a click action.
+->Similarly, when typing text, it simulates keystrokes as if a real user is typing on the keyboard.
+
+

@@ -1,3 +1,10 @@
+Phase-2
+->Here we will be train the model using the below
+->For suppose if the user speaks the below things the prompt will be one
+->Lets say if the user speak any-word from the below item the prompt passing through the model will be one word
+
+
+
 Browser Not Opening
 “Chrome is not opening”
 “My browser won’t start”
@@ -51,4 +58,7 @@ Security / Popups
 “Chrome is broken”
 “I messed up my browser settings”
 “Can you fix my Chrome?”
+
+
+
 
